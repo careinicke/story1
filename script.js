@@ -13,7 +13,32 @@ $(document).ready(function () {
 		panel.slideToggle("slow");
 
 	});
-});
+}); //s1//
+
+// $(document).ready(function(){
+//     $("#flip2").click(function(){
+//         $("#panel2").slideToggle("slow");
+//     });
+// });
+
+// $(document).ready(function(){
+//     $("#flip3").click(function(){
+//         $("#panel3").slideToggle("slow");
+//     });
+// });
+
+// $(document).ready(function(){
+//     $("#flip4").click(function(){
+//         $("#panel4").slideToggle("slow");
+//     });
+// });
+
+// $(document).ready(function(){
+//     $("#flip5").click(function(){
+//         $("#panel5").slideToggle("slow");
+//     });
+// }); // sliding panels //
+
 
 $(document).ready(function () {
 	$("#a").click(function () {

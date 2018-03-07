@@ -76,6 +76,78 @@ p {
   font-family: Arial;
 }
 
+/*#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #ff3300;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+#panel2, #flip2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #ff6600;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel2 {
+    padding: 50px;
+    display: none;
+}
+
+#panel3, #flip3 {
+    padding: 5px;
+    text-align: center;
+    background-color: #ffff4d;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel3 {
+    padding: 50px;
+    display: none;
+}
+
+
+#panel4, #flip4 {
+    padding: 5px;
+    text-align: center;
+    background-color: #ccff33;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel4 {
+    padding: 50px;
+    display: none;
+}
+
+
+#panel5, #flip5 {
+    padding: 5px;
+    text-align: center;
+    background-color:  #2eb82e;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel5 {
+    padding: 50px;
+    display: none;
+}*/
+
 .hotimage {
   width: auto;
   height: 15%;
