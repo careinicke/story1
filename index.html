@@ -4,61 +4,58 @@
 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="drug.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="drug.js"></script>
   </head>
 
   <body>
     <h1>Drug Scheduling </h1>
     <h2> By Carmen Reinicke </h2>
 
-    <p> The <a href="https://www.dea.gov/index.shtml" target="_blank"> Drug Enforcement Administration </a> classifies drugs, substances, and chemicals used to make drugs into five categories called schedules as outlined by the Controlled Substance Act.
-      <p>
+<p> The <a href="https://www.dea.gov/index.shtml" target="_blank"> Drug Enforcement Administration </a> classifies drugs, substances, and chemicals used to make drugs into five categories called schedules as outlined by the Controlled Substance Act. <p>
 
-        <p> "It's a good, safe effort," said Jonathan Caulkins, a drug policy researcher and professor at Carnegie Mellon. "It is lampooned by people who want to make policies foolish and there's an intentional misunderstanding of schedule 1."
-          <p>
+ <p> "It's a good, safe effort," said Jonathan Caulkins, a drug policy researcher and professor at Carnegie Mellon. "It is lampooned by people who want to make policies foolish and there's an intentional misunderstanding of schedule 1." <p> 
 
-            <h3> Drug Schedules</h3>
-            <p id="chart"> Click through the chart to see the definiton of each schedule from the <a href="https://www.dea.gov/druginfo/ds.shtml" target="_blank"> DEA</a>
-              <p>
+<h3> Drug Schedules</h3>
+<p id="chart"> Click through the chart to see the definiton of each schedule from the <a href="https://www.dea.gov/druginfo/ds.shtml" target="_blank"> DEA.</a> <p>
 
-                <div id="schedule_1" class="slider">
-                  <a href="#">Schedule 1</a>
-                  <div class="panel">
-                    Drugs with NO currently accepted medical use and a high potential for abuse
-                  </div>
-                </div>
+<div id="schedule_1" class="slider">
+  <a href="#">Schedule 1</a>
+  <div class="panel">
+    Drugs with NO currently accepted medical use and a high potential for abuse.
+  </div>
+</div>
 
-                <div id="schedule_2" class="slider">
-                  <a href="#">Schedule 2</a>
-                  <div id="p2" class="panel">
-                    Drugs with a high potential for abuse. Can lead to severe psychological or physical dependence
-                  </div>
-                </div>
+<div id="schedule_2" class="slider">
+  <a href="#">Schedule 2</a>
+  <div id="p2" class="panel">
+    Drugs with a high potential for abuse. Can lead to severe psychological or physical dependence.
+  </div>
+</div>
 
-                <div id="schedule_3" class="slider">
-                  <a href="#">Schedule 3</a>
-                  <div id="p3" class="panel">
-                    Drugs with moderate to low potential for abuse, physical and psychological dependence.
-                  </div>
-                </div>
+<div id="schedule_3" class="slider">
+  <a href="#">Schedule 3</a>
+  <div id= "p3" class="panel">
+    Drugs with moderate to low potential for abuse, physical and psychological dependence.
+  </div>
+</div>
 
-                <div id="schedule_4" class="slider">
-                  <a href="#">Schedule 4</a>
-                  <div id="p4" class="panel">
-                    Drugs with low potential for abuse or dependence.
-                  </div>
-                </div>
+<div id="schedule_4" class="slider">
+  <a href="#">Schedule 4</a>
+  <div id = "p4" class="panel">
+    Drugs with low potential for abuse or dependence.
+  </div>
+</div>
 
-                <div id="schedule_5" class="slider">
-                  <a href="#">Schedule 5</a>
-                  <div id="p5" class="panel">
-                    Drugs with lower potential for abuse than schedule 4.
-                  </div>
-                </div>
+<div id="schedule_5" class="slider">
+  <a href="#">Schedule 5</a>
+  <div id="p5" class="panel">
+    Drugs with lower potential for abuse than schedule 4.
+  </div>
+</div>
 
-                <!-- <div id="flip2"> Schedule 2</div>
+<!-- <div id="flip2"> Schedule 2</div>
 <div id="panel2"> Drugs with a high potential for abuse. Can lead to severe psychological or physical dependence</div>
 <div id="flip3"> Schedule 3</div>
 <div id="panel3"> Drugs with moderate to low potential for abuse, physical and psychological dependence.</div>
@@ -67,45 +64,47 @@
 <div id="flip5"> Schedule 5</div>
 <div id="panel5"> Drugs with lower potential for abuse than schedule 4.</div> -->
 
-                <p> "The international treaties recognize no benefit of a psychoactive drug other than medicine," Caulkins continued, "So if there's a drug out there that provides fun, joy, with mild addictive liability, it is banned."
-                  <p>
+  <p> "The international treaties recognize no benefit of a psychoactive drug other than medicine," Caulkins continued, "So if there's a drug out there that provides fun, joy, with mild addictive liability, it is banned." <p>
 
-                    <p>This argument is most easily applied to marijuana, which provides fun and relaxation with a low potential for addiction. The substance, however, is ranked schedule 1, along with heroin and cocaine.
-                      <p>
+<p>This argument is most easily applied to marijuana, which provides fun and relaxation with a low potential for addiction. The substance, however, is ranked schedule 1, along with heroin and cocaine.  
+ <p>
 
-                        <h4> Click on the drug to learn more about its schedule</h4>
+  <p> It is also important to note that the drug schedule does not necessarily correlate with criminality. While the schedule 1 drugs are all illegal, drugs from other schedules can be abused illegally. <p>
 
-                        <div id="slide" class="info_slides">
-                          <div id="xButton" class="btn_close">
-                            <p>x</p>
-                          </div>
-                          <div id="popIn"></div>
-                        </div>
+<h4> Click on the drug to learn more about its schedule</h4>
 
-                        <table class="table">
+      <div id="slide" class="info_slides">
+         <div id="xButton" class="btn_close">
+        <p>x</p>
+      </div>
+        <div id="popIn"></div>
+      </div>
 
-                          <tr>
-                            <th> <img src="image/pill.png" class="hotimage" id="spotA" /> </th>
-                            <th> <img src="image/needle.png" class="hotimage" /> </th>
-                            <th> <img src="image/mj.png" class="hotimage" /></th>
-                          </tr>
-                          <tr>
-                            <th> <button class="hotspot" id="a">xanax</button> </th>
-                            <th> <button class="hotspot" id="b">heroin</button> </th>
-                            <th> <button class="hotspot" id="c">marijuana</button> </th>
-                          </tr>
-                          <tr>
-                            <th> <img src="image/bag.png" class="hotimage" /> </th>
-                            <th> <img src="image/coke.png" class="hotimage" /> </th>
-                            <th> <img src="image/cough.png" class="hotimage" /></th>
-                          </tr>
-                          <tr>
-                            <th> <button class="hotspot" id="d">drug</button> </th>
-                            <th> <button class="hotspot" id="e">cocaine</button> </th>
-                            <th> <button class="hotspot" id="f">cough syrup</button> </th>
-                          </tr>
+<table class="table">
 
-                        </table>
+  <tr>
+    <th> <img src="image/pill.png" class="hotimage" id="spotA"/> </th>
+    <th> <img src="image/needle.png" class="hotimage"/> </th> 
+    <th> <img src="image/mj.png" class="hotimage"/></th>
+  </tr>
+  <tr>
+    <th> <button class="hotspot" id="a">Lyrica</button> </th>
+    <th> <button class="hotspot" id="b">Heroin</button> </th>
+    <th> <button class="hotspot" id="c">Marijuana</button> </th>
+  </tr>
+  <tr>
+    <th> <img src="image/pill2.png" class="hotimage"/> </th>
+    <th> <img src="image/coke.png" class="hotimage"/> </th> 
+    <th> <img src="image/cough.png" class="hotimage"/></th>
+  </tr>
+  <tr>
+    <th> <button class="hotspot" id="d">Oxycontin</button> </th>
+    <th> <button class="hotspot" id="e">Cocaine</button> </th>
+    <th> <button class="hotspot" id="f">Cough syrup</button> </th>
+  </tr>
+
+  </table>
+  <p class="caption"> All icon images from <a href="https://thenounproject.com/" target="_blank"> noun project</a>
   </body>
 
 </html>

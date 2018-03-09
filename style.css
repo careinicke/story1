@@ -91,6 +91,15 @@ p {
   font-size: 15px;
   font-family: Arial;
 }
+.caption{
+   margin-right: 20%;
+  margin-left:20%;
+  align-content: center;
+  text-align: justify;
+  font-size: 10px;
+  font-family:Arial;
+  font-color:#4d4d33;
+}
 
 /*#panel, #flip {
     padding: 5px;
